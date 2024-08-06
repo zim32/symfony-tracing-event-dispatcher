@@ -1,7 +1,7 @@
 {
   "name": "zim32/symfony-tracing-event-dispatcher",
   "type": "symfony-bundle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Symfony OpenTelemetry integration for EventDispatcher component",
   "keywords": ["opentelemetry", "tracing", "bundle", "symfony", "eventdispatcher"],
   "authors": [
@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "php": ">=7.4",
+    "php": ">=8.0",
     "zim32/symfony-tracing-core": "*",
     "symfony/event-dispatcher": "7.1.* | 6.4.*",
     "symfony/event-dispatcher-contracts": "3.5.*",
